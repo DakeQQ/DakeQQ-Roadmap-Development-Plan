@@ -81,16 +81,16 @@ flowchart LR
 ```mermaid
 flowchart TB
     subgraph Perception Layer
-        Ears[👂 Ears Module]:::sensor
-        Eyes[👁️ Eyes Module]:::sensor
+        Ears[👂 Ears ]:::sensor
+        Eyes[👁️ Eyes ]:::sensor
     end
     
     subgraph Decision Layer
-        Brain[🧠 Brain Module]:::core
+        Brain[🧠 Brain ]:::core
     end
     
     subgraph Execution Layer
-        Mouth[👄 Mouth Module]:::actuator
+        Mouth[👄 Mouth ]:::actuator
         Tools[🔧 Toolchain]:::actuator
     end
     
@@ -108,10 +108,10 @@ flowchart TB
 
 | Date | Module | Sub-components | Technical Highlights |
 |------|--------|---------------|---------------------|
-| **2026-06-30** | 👂 Ears Module | VAD + AEC + Noise Suppression + ASR + Voiceprint Recognition + Source Separation | End-to-end speech front-end processing |
-| **2026-07-06** | 👄 Mouth Module | TTS + Voice Cloning + Audio Super-Resolution | High-fidelity speech synthesis |
-| **2026-07-13** | 👁️ Eyes Module | OCR + Object Localization + Vision LLM | Multimodal visual understanding |
-| **2026-07-20** | 🧠 Brain Module | Task Routing + Text LLM + Information Extraction + RAG | Core decision engine |
+| **2026-06-30** | 👂 Ears | VAD + AEC + Noise Suppression + ASR + Voiceprint Recognition + Source Separation | End-to-end speech front-end processing |
+| **2026-07-06** | 👄 Mouth | TTS + Voice Cloning + Audio Super-Resolution | High-fidelity speech synthesis |
+| **2026-07-13** | 👁️ Eyes | OCR + Object Localization + Vision LLM | Multimodal visual understanding |
+| **2026-07-20** | 🧠 Brain | Task Routing + Text LLM + Information Extraction + RAG | Core decision engine |
 | **2026-08-21** | 🔧 Toolchain | Image Editing / Video Generation / Subtitle Generation | Multimodal content creation |
 
 ---
@@ -265,16 +265,16 @@ flowchart LR
 ```mermaid
 flowchart TB
     subgraph 感知层
-        Ears[👂 耳朵模块]:::sensor
-        Eyes[👁️ 眼睛模块]:::sensor
+        Ears[👂 耳朵]:::sensor
+        Eyes[👁️ 眼睛]:::sensor
     end
     
     subgraph 决策层
-        Brain[🧠 大脑模块]:::core
+        Brain[🧠 大脑]:::core
     end
     
     subgraph 执行层
-        Mouth[👄 嘴巴模块]:::actuator
+        Mouth[👄 嘴巴]:::actuator
         Tools[🔧 工具链]:::actuator
     end
     
@@ -292,10 +292,10 @@ flowchart TB
 
 | 日期 | 模块 | 子组件 | 技术要点 |
 |------|------|--------|----------|
-| **2026-06-30** | 👂 耳朵模块 | VAD + AEC + 降噪 + ASR + 声纹识别 + 声源分离 | 语音前端处理全链路 |
-| **2026-07-06** | 👄 嘴巴模块 | TTS + 语音克隆 + 音频超分 | 高保真语音合成 |
-| **2026-07-13** | 👁️ 眼睛模块 | OCR + 目标定位 + Vision LLM | 多模态视觉理解 |
-| **2026-07-20** | 🧠 大脑模块 | 任务路由 + Text LLM + 信息抽取 + RAG | 核心决策引擎 |
+| **2026-06-30** | 👂 耳朵 | VAD + AEC + 降噪 + ASR + 声纹识别 + 声源分离 | 语音前端处理全链路 |
+| **2026-07-06** | 👄 嘴巴 | TTS + 语音克隆 + 音频超分 | 高保真语音合成 |
+| **2026-07-13** | 👁️ 眼睛 | OCR + 目标定位 + Vision LLM | 多模态视觉理解 |
+| **2026-07-20** | 🧠 大脑 | 任务路由 + Text LLM + 信息抽取 + RAG | 核心决策引擎 |
 | **2026-08-21** | 🔧 工具链 | 图像编辑 / 视频生成 / 字幕生成 | 多模态内容创作 |
 
 ---
