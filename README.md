@@ -44,7 +44,7 @@ gantt
 
 | Date | Module | Description | Status |
 |------|--------|-------------|--------|
-| 2026-03-30 | Qwen3-TTS-Base | Base text-to-speech model | 🔄 In Progress |
+| 2026-03-30 | Qwen3-TTS-Base | text-to-speech model | 🔄 In Progress |
 | 2026-04-13 | Qwen3-ASR | Automatic speech recognition model | ⏳ Pending Start |
 | 2026-04-27 | Qwen3.5 | Upgraded flagship language model | ⏳ Pending Start |
 
@@ -228,7 +228,7 @@ gantt
 
 | 日期 | 模块 | 内容说明 | 状态 |
 |------|------|----------|------|
-| 2026-03-30 | Qwen3-TTS-Base | 基础文本转语音模型 | 🔄 进行中 |
+| 2026-03-30 | Qwen3-TTS-Base | 文本转语音模型 | 🔄 进行中 |
 | 2026-04-13 | Qwen3-ASR | 自动语音识别模型 | ⏳ 待启动 |
 | 2026-04-27 | Qwen3.5 | 升级版主语言模型 | ⏳ 待启动 |
 
